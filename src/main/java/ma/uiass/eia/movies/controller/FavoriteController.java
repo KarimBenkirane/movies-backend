@@ -19,7 +19,7 @@ import ma.uiass.eia.movies.entity.FavoriteEntity;
 import ma.uiass.eia.movies.repository.FavoriteRepository;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 @RequestMapping(path = "/api/favorites")
 public class FavoriteController {
 

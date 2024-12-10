@@ -16,7 +16,7 @@ import ma.uiass.eia.movies.entity.CommentEntity;
 import ma.uiass.eia.movies.repository.CommentRepository;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 @RequestMapping(path = "/api/comments")
 public class CommentController {
 
